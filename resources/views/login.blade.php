@@ -20,10 +20,13 @@
       </div>
       <div class="form">
         <form action="X" method="post">
-          <div>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-google-plus-g"></i>
-            <i class="fab fa-twitter"></i>
+          <div class='cadastro'>
+            <p>cadastre-se <a href="">aqui</a></p>
+            <div>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
           </div>
           <label for="email">
             Email
