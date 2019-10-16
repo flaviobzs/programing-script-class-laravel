@@ -45,32 +45,32 @@
       >
 
         <div class="logo">
-          <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+          <a href="{{Route('usuario')}}" class="simple-text logo-normal">
             Perfil
           </a>
         </div>
         <div class="sidebar-wrapper">
           <ul class="nav">
             <li class="nav-item active">
-                <a class="nav-link" href="./rtl.html">
+                <a class="nav-link" href="{{Route('dashboard')}}">
                 <i class="material-icons">language</i>
                 <p>Dashboard</p>
                 </a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./dashboard.html">
+            <li class="nav-item active">
+              <a class="nav-link" href="{{Route('listar_orcamento')}}">
                 <i class="material-icons">dashboard</i>
                 <p>Orçamentos</p>
               </a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./user.html">
+            <li class="nav-item active">
+              <a class="nav-link" href="{{Route('listar_insumo')}}">
                 <i class="material-icons">library_books</i>
                 <p>Insumos</p>
               </a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./tables.html">
+            <li class="nav-item active">
+              <a class="nav-link" href="{{Route('listar_composicao')}}">
                 <i class="material-icons">content_paste</i>
                 <p>Composições</p>
               </a>
@@ -108,7 +108,10 @@
         <!-- End Navbar -->
         <div class="content">
             <div class="container-fluid">
-                <div class="row">xxxxxxxxxx
+                <div class="row">
+
+                  <!-- conteudo que herdará -->
+                  @yield('conteudo')
 
                 </div>
             </div>

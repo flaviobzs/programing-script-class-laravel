@@ -8,7 +8,7 @@ class InsumoController extends Controller
 {
     public function listar(){
 
-        return view('login');
+        return view('insumo');
 
     }
 }

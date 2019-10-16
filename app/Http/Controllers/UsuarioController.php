@@ -8,7 +8,7 @@ class UsuarioController extends Controller
 {
     public function detalhe(){
 
-        return view('login');
+        return view('usuario');
 
     }
 }

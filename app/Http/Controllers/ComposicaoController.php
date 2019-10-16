@@ -8,7 +8,7 @@ class ComposicaoController extends Controller
 {
     public function listar(){
 
-        return view('login');
+        return view('composicao');
 
     }
 }

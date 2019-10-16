@@ -8,7 +8,7 @@ class OrcamentoController extends Controller
 {
     public function listar(){
 
-        return view('login');
+        return view('orcamento');
 
     }
 }
