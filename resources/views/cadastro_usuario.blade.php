@@ -16,10 +16,11 @@
     <div class="transparency"></div>
     <div class="card">
       <div class="form">
-        <form action="X" method="post">
+        <form action="{{Route('cadastro_usuario')}}" method="post">
           <div>
             <p>CADASTRO</p>
           </div>
+          @csrf
           <label for="name">
             Nome
             <input type="text" name="name" id="name" />
@@ -30,7 +31,7 @@
           </label>
           <label for="password">
             Password
-            <input type="password" name="" id="" />
+            <input type="password" name="password" id="password" />
           </label>
           <label for="estado">
             Estado

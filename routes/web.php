@@ -4,12 +4,18 @@
 
 Route::get('/', 'LoginController@login')->name('login');
 Route::post('/', 'LoginController@logar')->name('logar');
-Route::get('/deslogar', 'LoginController@login')->name('login');
+Route::get('/deslogar', 'LoginController@deslogar')->name('deslogar');
+
+
 
 Route::get('/dashboard', 'DashboardController@dashboard')->name('dashboard');
 
 Route::prefix('usuario')->group(function () {
+    Route::get('/cadastro', 'UsuarioController@cadastrar')->name('cadastrar_usuario');
+    Route::post('/cadastro', 'UsuarioController@criar')->name('cadastro_usuario');
+
     Route::get('/','UsuarioController@detalhe')->name('usuario');
+
 });
 
 Route::prefix('insumos')->group(function () {

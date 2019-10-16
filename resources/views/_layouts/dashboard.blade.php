@@ -85,7 +85,7 @@
         >
           <div class="container-fluid">
             <div class="navbar-wrapper">
-              <a class="navbar-brand" href="#pablo">Nome do sistema</a>
+              Nome do sistema
             </div>
             <button
               class="navbar-toggler"
@@ -101,7 +101,7 @@
               <span class="navbar-toggler-icon icon-bar"></span>
             </button>
             <div class="navbar-wrapper">
-              <a class="navbar-brand" href="#pablo">SAIR</a>
+              <a class="navbar-brand" href="{{Route('deslogar')}}">SAIR</a>
             </div>
           </div>
         </nav>

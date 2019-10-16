@@ -19,9 +19,12 @@
         <img src="{{asset('assets/images/capacete.jpg')}}" alt="logo_company" />
       </div>
       <div class="form">
-        <form action="X" method="post">
+        <form action="{{Route('logar')}}" method="post">
+            
+          @csrf
+
           <div class='cadastro'>
-            <p>cadastre-se <a href="">aqui</a></p>
+            <p>cadastre-se <a href="{{Route('cadastrar_usuario')}}">aqui</a></p>
             <div>
               <i class="fab fa-facebook"></i>
               <i class="fab fa-google-plus-g"></i>
