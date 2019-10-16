@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    background-color: #232323;
+    width: 20%;
+    height: 100%;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    width: 80%;
+    border-radius: 7px 7px 0 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    background-color: #ff7c02;
+}
+
+.principal {
+    margin-top: 10px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    width: 80%;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+.link a {
+    text-decoration: none;
+    color: #232323;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content {
+    background-color: #ffffff;
+    width: 80%;
+    height: 100%;
+}
+
+header {
+    height: 100px;
+    background: linear-gradient(60deg, #ff5201, #ff7c02);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div {
+    height: 60px;
+    width: 60px;
+    background-color: #ffffff;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div p {
+    display: block;
+}
+
+header a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.dashbord {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infouser {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+thead {
+    background-color: #6e6a6a;
+}
+
+tr {
+    height: 30px;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.user p {
+    margin: 0;
+    color: #ffffff;
+}
